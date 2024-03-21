@@ -3,7 +3,7 @@ function filterWords(words) {
     let result = [];
     for (let index = 0; index < words.length; index++) {
         const element = words[index];
-        if (words[i].length > 3) {
+        if (words[index].length > 3) {
             result.push(element);
         }
     }
